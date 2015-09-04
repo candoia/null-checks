@@ -1,0 +1,7 @@
+{
+  "name": "null-checks",
+  "version": "0.0.1",
+  "author": "Ganesha Upadhyaya",
+  "description": "Counts number of null checking fixing revisions.",
+  "main": "main.html"
+}
