@@ -1,7 +1,16 @@
 {
   "name": "null-checks",
-  "version": "0.0.1",
-  "author": "Ganesha Upadhyaya",
+  "productName": "Null Checks",
+  "version": "0.1.0",
+  "author": "Nitin Mukesh Tiwari <nmtiwari@iastate.edu>",
   "description": "Counts number of null checking fixing revisions.",
-  "main": "main.html"
+  "main": "main.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candoia/null-checks"
+  },
+  "icon": {
+	"type": "fa",
+	"name": "pi-chart"
+  }
 }
