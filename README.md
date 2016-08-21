@@ -1,8 +1,8 @@
 # Candoia app: Null Checks
 
-This app ounts null check fixing revisions.
+This app counts null check fixing revisions, fixing revisions and total revisions in the project.
 
-in the project. To run add this app to your Candoia installation.
+To run add this app to your Candoia installation.
 
 
 ## Structure of this directory
