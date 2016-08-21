@@ -1,12 +1,9 @@
 out: output sum[string] of int;
-NullCheckRevisions: output sum[string] of int;
 p: Project = input;
-
 isfixing := false;
 count := 0;
 # map of file names to the last revision of that file
 files: map[string] of ChangedFile;
-
 visit(p, visitor {
 	before node: Revision -> {
         comment := node.log;
@@ -33,7 +30,6 @@ visit(p, visitor {
 			if (count > last){
               out["NullCheckRevisions"] << 1;
             }
-
 		}
 		if (node.change == ChangeKind.DELETED)
 			remove(files, node.name);
