@@ -1,6 +1,6 @@
 {
   "name": "null-checks",
-  "productName": "Null Checks",
+  "productName": "Null Checks Test",
   "version": "0.1.0",
   "author": "Nitin Mukesh Tiwari <nmtiwari@iastate.edu>",
   "description": "Counts number of null checking fixing revisions.",
